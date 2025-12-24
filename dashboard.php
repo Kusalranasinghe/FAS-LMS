@@ -61,6 +61,36 @@
         </div>
     </div>
 
+    <footer style="height: 300px;">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <p>ABC Green Campus , Gampaha</p>
+                <p>Email: <a href="mailto:info@example.com">abccampus@gmail.com</a></p>
+            </div>
+            <div class="footer-column">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+
+                    <a href="#facebook">Facebook</a>
+                    <a href="#twitter">Twitter</a>
+                    <a href="#instagram">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"

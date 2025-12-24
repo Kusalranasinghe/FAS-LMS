@@ -13,8 +13,8 @@
         echo "Connection failed: ";
     }
 
-    if($conn) {
+    /*if($conn) {
          echo "Connected successfully";
-    }
+    }*/
 
 ?>
