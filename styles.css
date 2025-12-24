@@ -30,3 +30,50 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
+
+.btns #register {
+  background-color: #ffffff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.btns #register a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.btns #login {
+  background-color: #2a60f4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.btns #login a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.btns #register:hover, .btns #login:hover {
+  transform: scale(1.02);
+  transition: 1s;
+}
+
+.main {
+  background-image: url('images/background.jpg');
+}

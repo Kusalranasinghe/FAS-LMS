@@ -1,5 +1,5 @@
 <?php
-    include 'database.php';
+include 'database.php';
 ?>
 
 <!DOCTYPE html>
@@ -9,10 +9,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Student-Registration</title>
 </head>
 
 <body>
+
+    <div class="navbar" style="padding: 10px; font-weight: 600;">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+    </div>
     <form action="<?php htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
 
         <h2>Student Registration</h2>
@@ -40,33 +59,31 @@
 </html>
 
 <?php
-    if($_SERVER["REQUEST_METHOD"] == "POST") {
-        
-        $name = $_POST['name'];
-        $nic = $_POST['nic'];
-        $email = $_POST['email'];
-        $password = $_POST['password'];
-        $cpassword = $_POST['cpassword'];
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-        if(empty($name) || empty($nic) || empty($email) || empty($password) || empty($cpassword)) {
-            echo "All fields are required.";
-            exit; 
-        }
+    $name = $_POST['name'];
+    $nic = $_POST['nic'];
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+    $cpassword = $_POST['cpassword'];
 
-        if($password !== $cpassword) {
-            echo "Passwords do not match.";
-            exit; 
-        }
-
-        else {
-            $hash = password_hash($password, PASSWORD_DEFAULT);
-            $sql = "INSERT INTO users (name, nic, email, password) VALUES ('$name', '$nic', '$email', '$hash')";
-
-            mysqli_query($conn, $sql);
-            header("Location: login.php");
-        }
-
-        mysqli_close($conn);
-
+    if (empty($name) || empty($nic) || empty($email) || empty($password) || empty($cpassword)) {
+        echo "All fields are required.";
+        exit;
     }
+
+    if ($password !== $cpassword) {
+        echo "Passwords do not match.";
+        exit;
+    } else {
+        $hash = password_hash($password, PASSWORD_DEFAULT);
+        $sql = "INSERT INTO users (name, nic, email, password) VALUES ('$name', '$nic', '$email', '$hash')";
+
+        mysqli_query($conn, $sql);
+        header("Location: login.php");
+    }
+
+    mysqli_close($conn);
+
+}
 ?>
