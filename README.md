@@ -1,4 +1,4 @@
-<h3 style="font-weight=bold">Completed Home page , login page, register page, dashboard page and courses pages (Computer science, Mathematics, Physics and Chemistry) and already connected with database.</h3>
+<h3 style="font-weight=bold">Completed Home page , login page, register page, dashboard page and courses pages (Computer science, Mathematics, Physics and Chemistry) and already connected with database.(Now creationg about.php and contact.php pages)</h3>
 <img width="1835" height="2170" alt="Opera Snapshot_2025-12-25_122144_localhost" src="https://github.com/user-attachments/assets/c3c7645b-f1ef-4239-a0de-9ec01be2333e" />
 <img width="1835" height="1263" alt="Opera Snapshot_2025-12-25_122253_localhost" src="https://github.com/user-attachments/assets/f1d3c544-78ee-433a-9f0f-53603ec2daef" />
 <img width="1835" height="1263" alt="Opera Snapshot_2025-12-25_122232_localhost" src="https://github.com/user-attachments/assets/6bcc2b42-3c89-4c6a-be15-a3b5ea766bb9" />
