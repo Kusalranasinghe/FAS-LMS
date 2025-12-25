@@ -41,7 +41,8 @@ session_start();
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 20px;
   border-radius: 8px; " action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-            <h2 style="text-align: center; padding-top: 15px; padding-bottom: 30px; font-weight: bolder; color: white;">
+            <h2 style="text-align: center; padding-top: 15px; font-weight: bolder; color: white;">Faculty of Applied Science</h2>
+            <h2 style="text-align: center; padding-bottom: 30px; font-weight: bolder; color: white;">
                 Student-Login</h2>
 
             <input type="email" id="email" name="email" placeholder="Enter your email :" style="margin-bottom: 15px;">

@@ -42,7 +42,8 @@ include 'database.php';
   padding: 20px;
   border-radius: 8px;">
 
-            <h2 style="text-align: center; padding-top: 15px; padding-bottom: 30px; font-weight: bolder; color: white;">Student-Registration</h2>
+            <h2 style="text-align: center; padding-top: 15px; font-weight: bolder; color: white;">Faculty of Applied Science</h2>
+            <h2 style="text-align: center; padding-bottom: 30px; font-weight: bolder; color: white;">Student-Registration</h2>
 
             <input type="text" id="name" name="name" placeholder="Enter your name :" style="margin-bottom: 15px;">
 

@@ -31,9 +31,12 @@
     </div>
 
     <div
-        style=" height: 800px; background-size: cover; background-image: url('images/pexels-keira-burton-6146970.jpg');">
+        style=" height: 880px; background-size: cover; background-image: url('images/pexels-keira-burton-6146970.jpg'); ">
 
-        <p style="color:aliceblue; padding: 60px; padding-bottom: 0px;">A Faculty of Applied Science serves as a bridge between theoretical discovery and industrial utility,
+        <div class="blur" style=" backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);">
+            <h1 style="color: aliceblue; text-align: center; padding-top: 50px;">Welcome to the Faculty of Applied Science</h1>
+        <p style="color:aliceblue; padding: 60px; padding-bottom: 0px; padding-left: 80px; padding-right: 80px;">A Faculty of Applied Science serves as a bridge between theoretical discovery and industrial utility,
             emphasizing "how" scientific principles can be utilized to solve modern real-world problems. While
             traditional science focuses on understanding natural phenomena, these faculties integrate Computer Science,
             Mathematics, Physics, and Chemistry into a cohesive multidisciplinary framework to drive technological
@@ -56,7 +59,7 @@
                     <h5 class="card-title">Computer Sciencs</h5>
                     <p class="card-text">Computer science is the study of computation, information, and automation
                         through software and hardware systems.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="cs.php" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
 
@@ -66,7 +69,7 @@
                     <h5 class="card-title">Mathematics</h5>
                     <p class="card-text">Mathematics is the study of numbers, structures, and patterns used to solve
                         complex global problems.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="maths.php" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
 
@@ -75,8 +78,8 @@
                 <div class="card-body">
                     <h5 class="card-title">Physics</h5>
                     <p class="card-text">Physics is the natural science that studies matter, its motion and behavior
-                        through space and time, and the related entities of energy and force.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                     the related entities of energy and force.</p>
+                    <a href="physics.php" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
 
@@ -86,11 +89,14 @@
                 <div class="card-body">
                     <h5 class="card-title">Chemistry</h5>
                     <p class="card-text">Chemistry is the scientific study of the properties and behavior of matter,
-                        including its composition, structure, and reactions.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                        including its composition reactions.</p>
+                    <a href="chemistry.php" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
+        </div>
+
+        
     </div>
 
 
