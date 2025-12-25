@@ -32,7 +32,7 @@
     </div>
 
     <div
-        style=" height: 840px; background-size: cover; background-image: url('images/pexels-george-pak-7972353.jpg'); ">
+        style=" height: 80px; background-size: cover; background-image: url('images/pexels-george-pak-7972353.jpg'); ">
 
         <div class="blur" style=" backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);">
